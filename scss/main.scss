@@ -1,0 +1,18 @@
+$primary-color: #333;
+$primary-background: #eee;
+
+@import "./partials/nav";
+
+h2 {
+  color: dodgerblue
+}
+body {
+  background-color: $primary-background;
+  color: $primary-color;
+}
+.jump-to-top {
+position: fixed;
+bottom: 0;
+right: 0;
+
+}
