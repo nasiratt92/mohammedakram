@@ -2,6 +2,8 @@ $primary-color: #333;
 $primary-background: #eee;
 
 @import "./partials/nav";
+@import "./partials/footer";
+@import "./partials/components";
 
 h2 {
   color: dodgerblue
@@ -9,10 +11,5 @@ h2 {
 body {
   background-color: $primary-background;
   color: $primary-color;
-}
-.jump-to-top {
-position: fixed;
-bottom: 0;
-right: 0;
-
+  font-family: Helvatica sans-serif;
 }
