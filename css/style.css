@@ -1,29 +1,38 @@
-nav ul {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  background-color: snow; }
-nav li {
-  list-style: none;
-  padding: 0 10px; }
-  nav li:not(:last-child) {
-    border-right: solid #333 1px; }
-nav a {
-  display: inline-block;
-  text-decoration: none; }
+nav {
+  position: fixed;
+  width: 100%; }
+  nav ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: snow; }
+  nav li {
+    list-style: none;
+    padding: 0 10px; }
+    nav li:not(:last-child) {
+      border-right: solid #333 1px; }
+  nav a {
+    display: inline-block;
+    text-decoration: none; }
 
-banner image {
-  background-position: center;
-  background-repeat: no-repeat;
+.hero-section {
+  background: url("../assets/HatchfulExport-All/linkedin_banner_image_2.png") 50% no-repeat;
   background-size: cover;
-  position: relative;
-  z-index: -1; }
+  height: 100vh;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+  .hero-section .hero-section-text {
+    color: white;
+    text-shadow: 1px 1px 2px black; }
 
 footer {
-  height: 300px;
+  height: 100px;
   margin-top: 50px;
   background-color: #333;
-  color: #eee; }
+  color: #eee;
+  text-align: center; }
 
 .jump-to-top {
   position: fixed;

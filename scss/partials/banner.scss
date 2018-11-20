@@ -1,8 +1,16 @@
-banner {
-  image {
-  background-position: center;
-     background-repeat: no-repeat;
-     background-size: cover;
-     position: relative;
-  z-index: -1;}
+$hero-height: 100vh;
+
+.hero-section {
+  background: url('../assets/HatchfulExport-All/linkedin_banner_image_2.png') 50% no-repeat;
+  background-size: cover;
+  height: $hero-height;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .hero-section-text {
+    color: white;
+    text-shadow: 1px 1px 2px black;
+  }
 }
