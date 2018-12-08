@@ -31,7 +31,7 @@ footer {
   height: 100px;
   margin-top: 50px;
   background-color: #333;
-  color: #eee;
+  color: #f3f3f3;
   text-align: center; }
 
 .jump-to-top {
@@ -47,12 +47,39 @@ footer {
   margin-bottom: 20px;
   background-color: #cccccb88; }
 
+.bg1 {
+  background-image: url("../assets/treads-1544271701145-551.jpg"); }
+
+.bg2 {
+  background-image: url("../assets/treads-1544271701145-551.jpg"); }
+
+.bg3 {
+  background-image: url("../assets/vectorstock_858738.jpg"); }
+
+.bg4 {
+  background-image: url("../assets/04186_tokyotower_1366x768.jpg"); }
+
+.parallax-image {
+  /* The image used */
+  /* Full height */
+  height: 600px;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
 h2 {
-  color: dodgerblue; }
+  color: #303841; }
 
 body {
-  background-color: #eee;
+  background-color: #f3f3f3;
   color: #333;
   font-family: Helvatica sans-serif; }
+
+a:visited {
+  text-decoration: none;
+  text-decoration: underline;
+  color: #333; }
 
 /*# sourceMappingURL=style.css.map */

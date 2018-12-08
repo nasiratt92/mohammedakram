@@ -1,0 +1,29 @@
+
+.bg1 {
+  background-image: url("../assets/treads-1544271701145-551.jpg");
+}
+.bg2 {
+  background-image: url("../assets/treads-1544271701145-551.jpg");
+}
+.bg3 {
+  background-image: url("../assets/vectorstock_858738.jpg");
+  // background-image: url("../assets/vectorstock_969696.jpg");
+}
+.bg4 {
+  background-image: url("../assets/04186_tokyotower_1366x768.jpg");
+}
+
+.parallax-image {
+    /* The image used */
+
+
+    /* Full height */
+    height: 600px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
