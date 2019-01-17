@@ -6,13 +6,17 @@ $primary-background: #f3f3f3;
 @import "./partials/footer";
 @import "./partials/components";
 @import "./partials/parallax-image";
+@import "./partials/projects";
 
 h2 {
   color: #303841
+  'Arvo', serif;
+
 }
 body {
   background-color: $primary-background;
   color: $primary-color;
-  font-family: Helvatica sans-serif;
+  font-family: 'Roboto', sans-serif;
+  display: block;
 }
  a:visited { text-decoration: none; text-decoration: underline; color:$primary-color; }

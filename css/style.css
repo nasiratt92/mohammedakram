@@ -48,13 +48,13 @@ footer {
   background-color: #cccccb88; }
 
 .bg1 {
-  background-image: url("../assets/treads-1544271701145-551.jpg"); }
+  background-image: url("../assets/landscape63-2024.jpg"); }
 
 .bg2 {
-  background-image: url("../assets/treads-1544271701145-551.jpg"); }
+  background-image: url("../assets/landscape63-2024.jpg"); }
 
 .bg3 {
-  background-image: url("../assets/vectorstock_858738.jpg"); }
+  background-image: url("../assets/vectorstock_969696.jpg"); }
 
 .bg4 {
   background-image: url("../assets/04186_tokyotower_1366x768.jpg"); }
@@ -62,20 +62,47 @@ footer {
 .parallax-image {
   /* The image used */
   /* Full height */
-  height: 600px;
+  height: 100vh;
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover; }
 
+.gallery {
+  display: flex;
+  width: 100%;
+  margin: auto;
+  justify-content: space-between; }
+
+figure {
+  width: 320px;
+  margin: 0;
+  background-color: white;
+  color: #777;
+  padding: 8px;
+  box-sizing: border-box;
+  border-radius: 15px; }
+
+figure img {
+  width: 100%;
+  min-height: 60px; }
+
+figure button {
+  display: block; }
+
+figure figcaption {
+  text-align: center;
+  padding: 8px 4px; }
+
 h2 {
-  color: #303841; }
+  color: #303841 'Arvo', serif; }
 
 body {
   background-color: #f3f3f3;
   color: #333;
-  font-family: Helvatica sans-serif; }
+  font-family: 'Roboto', sans-serif;
+  display: block; }
 
 a:visited {
   text-decoration: none;

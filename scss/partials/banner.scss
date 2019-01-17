@@ -4,6 +4,7 @@ $hero-height: 100vh;
   background: url('../assets/HatchfulExport-All/linkedin_banner_image_2.png') 50% no-repeat;
   background-size: cover;
   height: $hero-height;
+
   // width: 50%;
   text-align: center;
   display: flex;
@@ -14,4 +15,5 @@ $hero-height: 100vh;
     color: white;
     text-shadow: 1px 1px 2px black;
   }
+  
 }
